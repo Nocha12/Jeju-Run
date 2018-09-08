@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="E">
+      <UniqueIdentifier>{1df3c3d5-aa19-48af-a720-368abe7fd13e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="0831Racing.cpp" />
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset.cpp">
+      <Filter>E</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>E</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>E</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>E</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>E</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>E</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>E</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>E</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="MultiDirAnimaion.cpp" />
+    <ClCompile Include="Obejct.cpp" />
+    <ClCompile Include="Horse.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Obstacle.cpp" />
+    <ClCompile Include="UI.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="SelectScene.cpp" />
+    <ClCompile Include="ShopScene.cpp" />
+    <ClCompile Include="LoadScene.cpp" />
+    <ClCompile Include="MainScene.cpp" />
+    <ClCompile Include="EndScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DXUT\Optional\SDKsound.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset.h">
+      <Filter>E</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>E</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>E</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>E</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>E</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>E</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>E</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>E</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>E</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="MultiDirAnimaion.h" />
+    <ClInclude Include="Obejct.h" />
+    <ClInclude Include="Horse.h" />
+    <ClInclude Include="Enum.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Obstacle.h" />
+    <ClInclude Include="UI.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="SelectScene.h" />
+    <ClInclude Include="ShopScene.h" />
+    <ClInclude Include="LoadScene.h" />
+    <ClInclude Include="MainScene.h" />
+    <ClInclude Include="EndScene.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="0831Racing.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
